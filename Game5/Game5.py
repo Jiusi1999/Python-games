@@ -1,11 +1,9 @@
 '''
-Function:
-	经典坦克大战小游戏
+
 Author:
-	Charles
-微信公众号:
-	Charles的皮卡丘
+    Jiusi
 '''
+
 import os
 import cfg
 import pygame
@@ -44,3 +42,16 @@ if __name__ == '__main__':
 		is_quit_game = main(cfg)
 		if is_quit_game:
 			break
+from PyQt5.QtGui import *
+import os
+ 
+img = QImage()
+path = "./img"
+for root , dirs, files in os.walk(path):
+    for name in files:
+        print(name)
+        if name.endswith(".png"):
+            print(name)
+            print("./img/"+ name)
+            img.load("./img/"+name)
+            img.save("./img/"+name)

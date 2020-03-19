@@ -75,7 +75,7 @@ OTHER_IMAGE_PATHS = {
 						'tip': os.path.join(os.getcwd(), 'resources/images/others/tip.png'),
 						'gamebar': os.path.join(os.getcwd(), 'resources/images/others/gamebar.png')
 					}
-'''声音'''
+'''音效'''
 AUDIO_PATHS = {
 				'add': os.path.join(os.getcwd(), 'resources/audios/add.wav'),
 				'bang': os.path.join(os.getcwd(), 'resources/audios/bang.wav'),
@@ -91,6 +91,6 @@ HEIGHT = 630
 BORDER_LEN = 3
 GRID_SIZE = 24
 PANEL_WIDTH = 150
-TITLE = '坦克大战-微信公众号: Charles的皮卡丘'
+TITLE = 'Battle city by 袁思铭'
 '''关卡'''
 LEVELFILEDIR = os.path.join(os.getcwd(), 'modules/levels')
